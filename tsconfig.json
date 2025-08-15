@@ -9,7 +9,7 @@
   },
   "include": [
     "src",
-    "tests",           // добавь эту строку
-    "pages/**/*.ts"    // если нужны все файлы в pages
+    "tests",
+    "pages/**/*.ts"
   ]
 }
