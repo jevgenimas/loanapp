@@ -1,28 +1,15 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "commonjs",
+    "module": "CommonJS",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "types": ["node", "playwright"],
-    "outDir": "dist"
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "tests/**/*.ts",
-    "tests/**/*.tsx",
-    "loanapp/**/*.ts",
-    "loanapp/**/*.tsx",
-    "pages/**/*.ts",
-    "pages/**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
+    "src",
+    "tests",
+    "pages/**/*.ts"
   ]
 }
