@@ -4,7 +4,6 @@ import { LoanDetailPage } from "./pages/loandetail-page";
 
 let loanPage: LoanPage;
 
-// Перед каждым тестом открываем страницу займа
 test.beforeEach(async ({ page }) => {
     loanPage = new LoanPage(page);
     await loanPage.openLoanPage();
